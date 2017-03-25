@@ -1,0 +1,11 @@
+{
+  "name": "where-did-i-park",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:awesomejerry/where-did-i-park.git",
+  "author": "JerryShen <jerry82422@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^9.0.2"
+  }
+}

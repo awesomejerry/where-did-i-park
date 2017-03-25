@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#map-section {
+  width: 100vw;
+  height: 60vh;
+}
+
+#photo-section {
+  width: 100vw;
+  height: 40vh;
+}
+
+#photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#upload {
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px 0 #282828;
+}
+
+#upload svg {
+  width: 10rem;
+  height: 10rem;
+}
+
+#upload-input {
+  display: none;
+}
